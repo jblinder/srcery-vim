@@ -345,7 +345,7 @@ hi! link lCursor Cursor
 
 hi! link Special SrceryOrange
 
-call s:HL('Comment', s:white, s:none, s:italic)
+call s:HL('Comment', s:xgray5, s:none, s:italic)
 
 if g:srcery_transparent_background == 1 && !has('gui_running')
   call s:HL('Todo', s:bright_white, s:none, s:bold . s:italic)
@@ -639,7 +639,7 @@ hi! link xmlEntityPunct SrceryYellow
 " }}}
 " Vim: {{{
 
-call s:HL('vimCommentTitle', s:bright_white, s:none, s:bold . s:italic)
+call s:HL('vimCommentTitle', s:xgray5, s:none, s:bold . s:italic)
 
 hi! link vimNotation SrceryYellow
 hi! link vimBracket SrceryYellow
